@@ -12,27 +12,27 @@ https://www.youtube.com/watch?v=i0_1IhcEm_4
 
 # Process
 Created a repo and added some test images into a folder. Downloaded the utilities and library from: https://developers.google.com/speed/webp/download. Extracted and placed into the directory of the test repo.</br>
-![Process Image 01](/README-images/process_01.png)
-![Process Image 02](/README-images/process_02.png)
+![Process Image 01](./README-images/process_01.png)
+![Process Image 02](./README-images/process_02.png)
 
 Tried running the command, however zsh denied the command. </br>
-![Process Image 03](/README-images/process_03.png)
+![Process Image 03](./README-images/process_03.png)
 
 Found alternate solution using npm sharp. </br>
-![Process Image 04](/README-images/process_04.png)
+![Process Image 04](./README-images/process_04.png)
 
 First create a .js file and add the Sharp module code. The specific image file was specified:</br>
-![Process Image 05](/README-images/process_05.png)
+![Process Image 05](./README-images/process_05.png)
 
 Then in the terminal, run the .js file:</br>
-![Process Image 07](/README-images/process_07.png)
+![Process Image 07](./README-images/process_07.png)
 
 The size difference of the two files. A significant reduction and unnoticeable quality loss. The size of webp is 25x less than the png. </br>
-![Process Image 06](/README-images/process_06.png)
+![Process Image 06](./README-images/process_06.png)
 
 In order to convert the images in batch, a for loop was used:</br>
-![Process Image 08](/README-images/process_08.png)
-![Process Image 09](/README-images/process_09.png)
-![Process Image 10](/README-images/process_10.png)
+![Process Image 08](./README-images/process_08.png)
+![Process Image 09](./README-images/process_09.png)
+![Process Image 10](./README-images/process_10.png)
 
 I kept the directories in the same folder for the input and outputs as I want to only use one folder and I want to immediate see the size difference in the folder when looking at the GUI. I could then sort by file type if I wanted to in order to select the webp images easily. 
